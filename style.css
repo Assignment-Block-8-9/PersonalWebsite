@@ -1,0 +1,21 @@
+body { background-color: lightblue;}
+
+.sticky-nav {width: 100%;
+    height: 200px; 
+    position: fixed; 
+    top: 0;
+    background: bisque;
+
+}
+
+h2 {font-family: "Lucida Console", "Courier New", monospace;
+color:cornflowerblue;}
+
+p {font-family: "Garamond", Helvetica, sans-serif;
+color:olive;
+font-family: "Lucida Console", "Courier New", monospace;}
+
+h1{color:blue;
+    font-family: "Lucida Console", "Courier New", monospace;}
+
+h3{color: blueviolet;}

@@ -1,12 +1,50 @@
+
+
+
+
+
 body { background-color: lightblue;}
 
-.sticky-nav {width: 100%;
-    height: 200px; 
-    position: fixed; 
+.sticky-nav {
+    display: grid;
+    width: 99%;
+    height: 70px; 
+    position: absolute; 
     top: 0;
-    background: bisque;
+    background: #E7E0B3;
+    grid-template-columns: 15% 40% 15% 15% 15%;
+    padding-bottom: 30px;
+
 
 }
+
+.homel {border-style: solid;
+        border: 4px solid #3581CA;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        padding: 10px;
+        background-color: #E5ECFA;
+        }
+
+
+.aboutl {border-style: solid;
+         border: 4px solid #3581CA;
+         text-align: center;
+         width: 70%;
+         margin: auto;
+         padding: 10px;
+         background-color: #E5ECFA;
+        }       
+        
+.portl {border-style: solid;
+            border: 4px solid #3581CA;
+            text-align: center;
+            width: 70%;
+            margin: auto;
+            padding: 10px;
+            background-color: #E5ECFA;
+           }         
 
 h2 {font-family: "Lucida Console", "Courier New", monospace;
 color:cornflowerblue;}
@@ -18,4 +56,7 @@ font-family: "Lucida Console", "Courier New", monospace;}
 h1{color:blue;
     font-family: "Lucida Console", "Courier New", monospace;}
 
-h3{color: blueviolet;}
+h3{color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align:left;}

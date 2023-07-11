@@ -3,7 +3,7 @@
 
 
 
-body { background-color: lightblue;}
+body { background-color: #96D1DB;}
 
 .sticky-nav {
     display: grid;
@@ -12,7 +12,7 @@ body { background-color: lightblue;}
     position: absolute; 
     top: 0;
     background: #E7E0B3;
-    grid-template-columns: 15% 40% 15% 15% 15%;
+    grid-template-columns: 15% 30% 13% 13% 13% 13%;
     padding-bottom: 30px;
 
 
@@ -26,6 +26,9 @@ body { background-color: lightblue;}
         padding: 10px;
         background-color: #E5ECFA;
         }
+        .homel:hover {
+            background-color: orange;
+        }
 
 
 .aboutl {border-style: solid;
@@ -36,6 +39,9 @@ body { background-color: lightblue;}
          padding: 10px;
          background-color: #E5ECFA;
         }       
+        .aboutl:hover {
+            background-color: #F2E2BC;
+        }
         
 .portl {border-style: solid;
             border: 4px solid #3581CA;
@@ -45,18 +51,73 @@ body { background-color: lightblue;}
             padding: 10px;
             background-color: #E5ECFA;
            }         
+           .portl:hover {
+            background-color: orange;
+        }
+
+
+.conl   {border-style: solid;
+            border: 4px solid #3581CA;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+            background-color: #E5ECFA;
+           }    
+           .conl:hover {
+            background-color: #F2E2BC;
+        }
+
+
+.homeimg { display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+
 
 h2 {font-family: "Lucida Console", "Courier New", monospace;
-color:cornflowerblue;}
+    color:cornflowerblue;
+    font-size: 20px;
+    text-align: center;
+    border: solid;
+    background-color: #E5ECFA;;
+}
 
-p {font-family: "Garamond", Helvetica, sans-serif;
-color:olive;
-font-family: "Lucida Console", "Courier New", monospace;}
+p{ font-family: "Garamond", Helvetica, sans-serif;
+   color:#3C5B1F;
+   font-size: 20px;
+   text-align: center;
+   border: solid;
+   background-color: #E5ECFA;;
+  }
 
-h1{color:blue;
-    font-family: "Lucida Console", "Courier New", monospace;}
+h1{color:#6A8211;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
 
-h3{color: blueviolet;
+}
+
+h3{color: #658E3D;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-    text-align:left;}
+    text-align:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abouti {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.contactinfo {background-color:#96D1DB !important;
+
+
+}
+
+label:hover {
+    background-color: orange;
+}

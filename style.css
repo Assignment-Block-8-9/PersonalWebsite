@@ -18,6 +18,14 @@ body { background-color: #96D1DB;}
 
 }
 
+.redpik { 
+          left: 0px;
+          top: 0px;
+          z-index: 1 ;
+}
+
+
+
 .homel {border-style: solid;
         border: 4px solid #3581CA;
         text-align: center;
@@ -72,23 +80,33 @@ body { background-color: #96D1DB;}
 .homeimg { display: grid;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;}
+    width: 30%;}
 
 
 h2 {font-family: "Lucida Console", "Courier New", monospace;
     color:cornflowerblue;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     border: solid;
-    background-color: #E5ECFA;;
+    background-color: #E5ECFA;
+    width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 p{ font-family: "Garamond", Helvetica, sans-serif;
    color:#3C5B1F;
-   font-size: 20px;
+   font-size: 1.25rem;
    text-align: center;
-   border: solid;
+   border: solid 3px;
    background-color: #E5ECFA;;
+   width: 300px;
+   box-sizing: border-box;
+   margin: 0 auto;
+   padding: 10px;
+   
+   
   }
 
 h1{color:#6A8211;
@@ -99,25 +117,29 @@ h1{color:#6A8211;
 
 h3{color: #658E3D;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align:left;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2;
+
 }
 
 .abouti {
     display: grid;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: auto;
+    width: 30%;
 }
 
 
 .contactinfo {background-color:#96D1DB !important;
-
+    text-align: center;
 
 }
 
 label:hover {
     background-color: orange;
 }
+

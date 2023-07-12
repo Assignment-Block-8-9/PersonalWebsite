@@ -114,6 +114,9 @@ h1{color:#6A8211;
     text-align: center;
 
 }
+h1:hover {
+    background-color: orange;
+}
 
 h3{color: #658E3D;
     font-family: Georgia, 'Times New Roman', Times, serif;

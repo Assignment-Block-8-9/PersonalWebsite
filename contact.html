@@ -10,9 +10,51 @@
 
 <body>
 
+    <header>
+        <nav class="sticky-nav">
+       
+           <img style="height: 90px" class="redpik"
+           src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/pikmin-3/1/1b/Pikminology-evolving-pikmin.jpg?width=325">
+        
+ 
+ 
+         
+ 
+           <h3>Amy Kwong</h3>
+
+           <div class="homel">
+               <a href="./index.html">Home</a>
+           </div>
+
+           <div class="aboutl">
+             <a href="./about-me.html">About</a>
+           </div>
+
+           <div class="portl">
+              <a href="./portfolio.html">Portfolio</a>
+           </div>
+
+            
+           <div class="conl">
+            <a href="./contact.html">Contacts</a>
+         </div>
+
+
+   
+       </nav>
+   </header>
+
+<br>
+<br>
+
+    <!--All the submit form button will take you to the home pg of the personal website-->
+
     <div class="contactinfo">
+        <br>
+        <br>
+        <br>
         <h1>Name of Visitor</h1>
-        <form>
+        <form action="./index.html">
              <label for="first name">First Name:</label><br />
             <input type="text" name="firstname"/><br />
 
@@ -20,7 +62,7 @@
             <input type="text" name="lastname"/><br />
 
             <input  type="submit"/>
-            <!-- this submit button will no take you to another html page-->
+    
         
         </form>  
 
@@ -36,7 +78,7 @@
             <input type="submit">
         </form>
 
-        <!--this submit form will take you to the home pg of the personal website-->
+        
         
        </form>
 
@@ -48,9 +90,12 @@
         <h1> Message</h1>
 
        <form action="./index.html">
-            <label for="email">Email Address:</label>
-            <input type="url" id="email" name="email"><br><br>
-            <input type="submit">
+            <label for="Message">Message Here:</label><br>
+            <textarea id="subject" 
+                      name="subject" 
+                      placeholder="What do you think.." 
+                      style="height:200px"></textarea><br><br>
+            <input type="submit" value="All Submitted yay">
         </form>
 
         <!--this submit form will take you to the home pg of the personal website-->

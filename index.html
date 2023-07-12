@@ -8,6 +8,17 @@
     
  <!-- this page is like the welcome page before clicking about, portfolio, ect.  Think main landing page/home page/1st page-->
 
+<style>
+      @media only screen and (max-width: 480px) and (min-width: 320px) {
+        body {background-image: url('https://www.pngkit.com/png/detail/313-3133558_tumblr-n1hkkr4dfe1qk2o24o1-500-dwarf-red-bulborb.png');
+               background-repeat: no-repeat;
+               background-attachment: fixed;
+               background-size: cover;
+               background-position: center;
+        }
+      }
+</style>
+
 
 </head>
 
@@ -25,10 +36,23 @@
         
 
             <h3>Amy Kwong</h3>
-           <a href="./index.html">Home</a>
-           <a href="./about-me.html">About</a>
-           <a href="./portfolio.html">Portfolio</a>
 
+            <div class="homel">
+                <a href="./index.html">Home</a>
+            </div>
+
+            <div class="aboutl">
+              <a href="./about-me.html">About</a>
+            </div>
+
+            <div class="portl">
+               <a href="./portfolio.html">Portfolio</a>
+            </div>
+
+            
+            <div class="conl">
+                <a href="./contact.html">Contacts</a>
+             </div>
 
     
         </nav>
@@ -41,26 +65,27 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 
     <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/streams/2013/December/131213/2D9984832-pikmin-3-wallpaper-1tease.jpg"
-    width=250px; height=auto;>    
-<h1>Misson Statement</h1>
+    width=250px; height=auto; class="homeimg">   
 
 
-<p>To thrive in my journey through life and learn life's lessons along the way.</p>
+  <div>  
+       <h1>Misson Statement</h1>
+  </div>
 
-<br>
+
+  <div>
+       <p>To thrive in my journey through life and learn life's lessons along the way.</p>
+  </div>
+
 <br>
     
-<h2>"You may think I'm small but I have a universe inside my mind - Yoko Ono</h2>
 
+   <div>
+      <h2>"You may think I'm small but I have a universe inside my mind - Yoko Ono</h2>
+   </div>
 
 <!--This click me button is for the javascript assignment section. I don't know how to make it pretty-er or how to incorporate it in the home page-->
 <button onclick="myFunc()">Click Me</button>
